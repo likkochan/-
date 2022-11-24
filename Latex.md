@@ -1,4 +1,4 @@
-$$ -\frac{\hbar ^{2}}{2m}\Delta \Psi+U\Psi=i\hbar \pdv{\Psi}{t} $$
+
 $$ PV=\nu RT $$
 $$ T=\frac{2\pi}{\sqrt{\omega_{0}^{2}-\beta^{2}}} $$
 $$ \dv[n]{f}{x} $$
