@@ -14,28 +14,28 @@ while True:
         else:
             print("Верно")
             n += 1
-        print("Введите перевод данного слова: hamster")
+        print("введите перевод данного слова: hamster")
         vvod = input("> ")
         if vvod.lower() != 'хомяк':
-            print("Неверно")
+            print("неверно")
         else:
             print("Верно")
             n += 1
-        print("Введите перевод данного слова: otter")
+        print("введите перевод данного слова: otter")
         vvod = input("> ")
         if vvod.lower() != 'выдра':
-            print("Неверно")
+            print("неверно")
         else:
-            print("Верно")
+            print("верно")
             n += 1
-        print("Введите перевод данного слова: way")
+        print("введите перевод данного слова: way")
         vvod = input("> ")
         if vvod.lower() != 'путь':
-            print("Неверно")
+            print("неверно")
         else:
-            print("Верно")
+            print("верно")
             n += 1
-        print("ВЫ угадали {} из 4 слов".format(n))
+        print("вы угадали {} из 4 слов".format(n))
         print("хорошего дня!")
         break
 
