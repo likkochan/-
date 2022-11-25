@@ -1,0 +1,48 @@
+import sys
+print("хаюшки, это викторина на  знание английского!")
+
+cp = ["cat", "hamster", "otter", "way"]
+
+while True:
+    n = 0
+    print("вы хотите начать игру - введите 1; вам нужна помощь с игрой - введите 2; хотите выйти - QUIT")
+    nom = input("> ")
+    if nom == '1':  # вывод слов
+        print("начинаем!")
+
+        print("введите перевод данного слова: cat")
+        vvod = input("> ")
+        if vvod.lower() != 'кот':
+            print("Неверно")
+        else:
+            print("Верно")
+            n += 1
+        print("Введите перевод данного слова: hamster")
+        vvod = input("> ")
+        if vvod.lower() != 'хомяк':
+            print("Неверно")
+        else:
+            print("Верно")
+            n += 1
+        print("Введите перевод данного слова: otter")
+        vvod = input("> ")
+        if vvod.lower() != 'выдра':
+            print("Неверно")
+        else:
+            print("Верно")
+            n += 1
+        print("Введите перевод данного слова: way")
+        vvod = input("> ")
+        if vvod.lower() != 'путь':
+            print("Неверно")
+        else:
+            print("Верно")
+            n += 1
+        print("ВЫ угадали {} из 4 слов".format(n))
+        print("хорошего дня!")
+        break
+
+    if nom == '2':  # вывод помощи
+        print("Зачем вам помощь?")
+    if nom.lower() == 'quit':
+        break
