@@ -10,16 +10,16 @@ while True:
         print("введите перевод данного слова: cat")
         vvod = input("> ")
         if vvod.lower() != 'кот':
-            print("Неверно")
+            print("неверно")
         else:
-            print("Верно")
+            print("верно")
             n += 1
         print("введите перевод данного слова: hamster")
         vvod = input("> ")
         if vvod.lower() != 'хомяк':
             print("неверно")
         else:
-            print("Верно")
+            print("верно")
             n += 1
         print("введите перевод данного слова: otter")
         vvod = input("> ")
